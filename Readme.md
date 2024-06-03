@@ -3,7 +3,7 @@
 
 The Invoice Generator is a simple web application that allows users to quickly generate invoices and download them in various formats. It's designed to streamline the process of creating professional-looking invoices for businesses or freelancers.
 
-# Website Link - https://invoicegenerator-two.vercel.app/
+# Website Link - https://icp2.onrender.com/
 
 
 ## Features
@@ -59,7 +59,7 @@ Start the server
 **For Frontend** - `cd client` ` npm i`
 
 
-## Backend Render Deployment
+##  Render Deployment
 
 To deploy this project run
 
@@ -67,13 +67,7 @@ To deploy this project run
   Render deploy
 ```
 
-## Client Vercel Deployment
 
-To deploy this project run
-
-```bash
-  Render deploy
-```
 
 ## Env Variables
 
