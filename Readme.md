@@ -58,7 +58,7 @@ Start the server
 **For Frontend** - `cd client` ` npm i`
 
 
-## Render Deployment
+## Backend Render Deployment
 
 To deploy this project run
 
@@ -66,6 +66,13 @@ To deploy this project run
   Render deploy
 ```
 
+## Client Vercel Deployment
+
+To deploy this project run
+
+```bash
+  Render deploy
+```
 
 ## Env Variables
 
@@ -80,7 +87,7 @@ JWT_SECRET=
 ,
 PUPPETEER_EXECUTABLE_PATH=,
 PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true,
-NODE_ENV=""
+
 
 
 _fill each filed with your info respectively_
