@@ -12,7 +12,7 @@ export const generatePdf = async (
   try {
     const browser = await puppeteer.launch({
       headless: true,
-       executablePath: 'C:\\Users\\ashis\\.cache\\puppeteer\\chrome\\win64-125.0.6422.78\\chrome-win64\\chrome.exe',
+       executablePath: '/usr/bin/google-chrome-stable',
       args: [
         "--ignore-certificate-errors",
         "--no-sandbox",
