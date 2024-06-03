@@ -11,7 +11,7 @@ The Invoice Generator is a simple web application that allows users to quickly g
 - **Dynamic Fields**: Easily input product name, quantity and rate.
 - **Download Options**: Generate invoices in PDF
 
-
+## DEMO VIDEO
 
 # Tech Stack
 
@@ -76,6 +76,9 @@ PORT=
 MONGO_DB =
 ,
 JWT_SECRET=
+,
+PUPPETEER_EXECUTABLE_PATH=,
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 
 _fill each filed with your info respectively_
