@@ -1,0 +1,15 @@
+{
+  "name": "invoice-application",
+  "version": "1.0.0",
+  "description": "The Invoice Generator is a simple web application that allows users to quickly generate invoices and download them in various formats. It's designed to streamline the process of creating professional-looking invoices for businesses or freelancers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\"  \"npm run dev --prefix client\" ",
+    "build": "cd backend && npm install && npm run build  && cd ../client && npm install && npm run build",
+    "start": "node backend/build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
