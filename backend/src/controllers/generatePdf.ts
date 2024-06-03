@@ -12,7 +12,6 @@ export const generatePdf = async (
   try {
     const browser = await puppeteer.launch({
       headless: true,
-       executablePath: '/usr/bin/google-chrome-stable',
       args: [
         "--ignore-certificate-errors",
         "--no-sandbox",
@@ -21,6 +20,8 @@ export const generatePdf = async (
         "--disable-accelerated-2d-canvas",
         "--disable-gpu",
       ],
+      executablePath: process.env.NODE_ENV==="Production"?process.env.PUPPETEER_EXECUTABLE_PATH:'C:\\Users\\ashis\\.cache\\puppeteer\\chrome\\win64-125.0.6422.78\\chrome-win64\\chrome.exe',
+      
       ignoreHTTPSErrors: true,
     });
     const page = await browser.newPage();
