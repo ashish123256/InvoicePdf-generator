@@ -1,6 +1,6 @@
 export const generatePDF = async (htmlContent?: string) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/invoices/generate-pdf`, {
+      const response = await fetch(`https://invoicepdf-generator.onrender.com/api/invoices/generate-pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
