@@ -9,7 +9,7 @@ const Profile = () => {
   const handleSignOut = async () => {
     dispatch(signOutStart());
     try {
-      const res = await fetch(`http://localhost:5000/api/auth/signout`);
+      const res = await fetch(`https://invoicepdf-generator.onrender.com/api/auth/signout`);
       const data = await res.json();
       if (data.success === false) {
         dispatch(signOutFailure(data.message));
