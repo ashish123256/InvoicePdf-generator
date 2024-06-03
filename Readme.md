@@ -12,6 +12,7 @@ The Invoice Generator is a simple web application that allows users to quickly g
 - **Download Options**: Generate invoices in PDF
 
 ## DEMO VIDEO
+https://drive.google.com/file/d/1tLo4J8g1ersEP0Or5R0zXDtDDLWd69dQ/view?usp=drive_link
 
 # Tech Stack
 
